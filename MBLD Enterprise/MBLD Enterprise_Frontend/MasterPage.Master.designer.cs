@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MBLD_Enterprise_Frontend
-{
-
-
-    public partial class MasterPage
-    {
-
+namespace MBLD_Enterprise_Frontend {
+    
+    
+    public partial class MasterPage {
+        
         /// <summary>
         /// head control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace MBLD_Enterprise_Frontend
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
-
+        
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -31,25 +29,25 @@ namespace MBLD_Enterprise_Frontend
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
         /// <summary>
-        /// SearchBox control.
+        /// UserLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SearchBox;
-
+        protected global::System.Web.UI.WebControls.Label UserLabel;
+        
         /// <summary>
-        /// Logout control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton Logout;
-
+        protected global::System.Web.UI.WebControls.Button Button1;
+        
         /// <summary>
         /// ContentPlaceHolder1 control.
         /// </summary>

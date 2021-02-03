@@ -22,47 +22,47 @@
 <body>
   
     <form id="form1" runat="server">
-         <!-- Header  -->
+        <!-- Header  -->
         <div class="header">
-            <div class="row ">
-                <!-- logo -->
-                <div class="col-2">
-                     <img src="images/Logo.png" width="90" height="90" class="logo" alt="Logo-Image">
-                </div>
-                <!-- search bar -->
-                <div class="col-4">
-                    <asp:TextBox ID="SearchBox" runat="server"></asp:TextBox>
-                </div>
-                <div class="col-4"></div>
-                <div class="col-1 align-middle">
-                    <div class="cart">
-                         <img src="images/Cart.png" width="50" height="50" class="cart" alt="Cart-Image">
-                        <br />
-                        <h3>Cart</h3>
-                    </div>
-                </div>
-                <div class="col-1 align-content-center align-middle">
-                    <div class="user">
-                        
-                         <img src="images/User.png" width="50" height="50" class="user" alt="User-Image">
-                         <br />
-                         <asp:LinkButton ID="Logout" runat="server">Logout</asp:LinkButton>
-                    </div>    
-                 </div>
-                   
+          <!-- Image and text -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logo.png"  width="90" height="90">
+                </a>
 
-                </div>
+                <form class="form-inline my-2 my-sm-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Cart
+                      <br/ >
+                     <img src="images/Cart.png" >
+                    </a>
+                  </li>
+                  <a class="nav-link" href="#"> <asp:Label ID="UserLabel" runat="server" Text="User"></asp:Label></span>
+                    
+                      <img src="images/User.png" />
+                    </a>
+                    
+                    <asp:Button ID="Button1" runat="server" Text="Log Out" />                
+                </ul>
+                 
+                 
+              </div>
+            </nav>
           </div>
+        
+
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         </asp:ContentPlaceHolder>
+
        
-
-
-
-       
-
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            
-               
-            </asp:ContentPlaceHolder>
         
     </form>
 </body>
