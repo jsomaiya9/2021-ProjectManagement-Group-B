@@ -11,6 +11,8 @@ namespace MBLD_Enterprise_Frontend
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //set up a session
+          
 
         }
     }
