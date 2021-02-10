@@ -24,42 +24,35 @@
     <form id="form1" runat="server">
         <!-- Header  -->
         <div class="header">
-          <!-- Image and text -->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">
-                    <img src="images/Logo.png"  width="90" height="90">
-                </a>
-
-                <form class="form-inline my-2 my-sm-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Cart
-                      <br/ >
-                     <img src="images/Cart.png" >
-                    </a>
-                  </li>
-                  <a class="nav-link" href="#"> <asp:Label ID="UserLabel" runat="server" Text="User"></asp:Label></span>
-                    
-                      <img src="images/User.png" />
-                    </a>
-                    
-                    <asp:Button ID="Button1" runat="server" Text="Log Out" />                
-                </ul>
-                 
-                 
-              </div>
-            </nav>
-          </div>
+            <div class="logo">
+                <img src="images/Logo.png" />
+            </div>
+            <div class="title">
+                <h1>MBLD Enterprise</h1>
+            </div>
         
+  
+         <!-- navigation -->
+            <nav class="nav">
+                    <ul>
+                      <li>
+                          <img src="images/home.png" / style="max-width:40px; min-width:40px;"><br />
+                          <a href="index.aspx">Home</a>
+                      </li>
+                      <li>
+                          <img src="images/Cart.png" /><br />
+                          <a href="Cart.aspx">Cart</a>                        
+                      </li>
+                      <li>
+                          <img src="images/User.png" /><br />
+                          <asp:Button ID="Button1" runat="server" Text="LogOut" />
+                      </li>
+                    </ul>
+             </nav>
+        </div>
 
          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
          </asp:ContentPlaceHolder>
 
        

@@ -31,15 +31,6 @@ namespace MBLD_Enterprise_Frontend {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// UserLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserLabel;
-        
-        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
