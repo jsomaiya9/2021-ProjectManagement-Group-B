@@ -2,5 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/MBLD Enterprise/.vs/MBLD Enterprise/v15/Server/sqlite3
-/MBLD Enterprise/.vs/config/applicationhost.config
+/MBLD Enterprise/.vs/MBLD Enterprise/v15/Server/sqlite3/db.lock
