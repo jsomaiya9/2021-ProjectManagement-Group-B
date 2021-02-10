@@ -22,47 +22,40 @@
 <body>
   
     <form id="form1" runat="server">
-         <!-- Header  -->
+        <!-- Header  -->
         <div class="header">
-            <div class="row ">
-                <!-- logo -->
-                <div class="col-2">
-                     <img src="images/Logo.png" width="90" height="90" class="logo" alt="Logo-Image">
-                </div>
-                <!-- search bar -->
-                <div class="col-4">
-                    <asp:TextBox ID="SearchBox" runat="server"></asp:TextBox>
-                </div>
-                <div class="col-4"></div>
-                <div class="col-1 align-middle">
-                    <div class="cart">
-                         <img src="images/Cart.png" width="50" height="50" class="cart" alt="Cart-Image">
-                        <br />
-                        <h3>Cart</h3>
-                    </div>
-                </div>
-                <div class="col-1 align-content-center align-middle">
-                    <div class="user">
-                        
-                         <img src="images/User.png" width="50" height="50" class="user" alt="User-Image">
-                         <br />
-                         <asp:LinkButton ID="Logout" runat="server">Logout</asp:LinkButton>
-                    </div>    
-                 </div>
-                   
+            <div class="logo">
+                <img src="images/Logo.png" />
+            </div>
+            <div class="title">
+                <h1>MBLD Enterprise</h1>
+            </div>
+        
+  
+         <!-- navigation -->
+            <nav class="nav">
+                    <ul>
+                      <li>
+                          <img src="images/home.png" / style="max-width:40px; min-width:40px;"><br />
+                          <a href="index.aspx">Home</a>
+                      </li>
+                      <li>
+                          <img src="images/Cart.png" /><br />
+                          <a href="Cart.aspx">Cart</a>                        
+                      </li>
+                      <li>
+                          <img src="images/User.png" /><br />
+                          <asp:Button ID="Button1" runat="server" Text="LogOut" />
+                      </li>
+                    </ul>
+             </nav>
+        </div>
 
-                </div>
-          </div>
-       
-
-
-
-       
-
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             
-               
-            </asp:ContentPlaceHolder>
+         </asp:ContentPlaceHolder>
+
+       
         
     </form>
 </body>
