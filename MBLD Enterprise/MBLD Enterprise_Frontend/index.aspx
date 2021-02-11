@@ -5,4 +5,8 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h3>
+        available items from database
+    </h3>
+    
 </asp:Content>

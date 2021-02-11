@@ -30,18 +30,22 @@
             <div class="title">
                 <h1>MBLD Enterprise</h1>
             </div>
-        
-  
+
+            
          <!-- navigation -->
             <nav class="nav">
                     <ul>
+                        <li>
+                          <img src="images/checkout.png" / style="max-width:40px; min-width:40px;"><br />
+                          <a href="checkout.aspx">Checkout</a>
+                      </li>
                       <li>
                           <img src="images/home.png" / style="max-width:40px; min-width:40px;"><br />
                           <a href="index.aspx">Home</a>
                       </li>
                       <li>
                           <img src="images/Cart.png" /><br />
-                          <a href="Cart.aspx">Cart</a>                        
+                          <a href="cart.aspx">Cart</a>                        
                       </li>
                       <li>
                           <img src="images/User.png" /><br />
@@ -56,6 +60,13 @@
          </asp:ContentPlaceHolder>
 
        
+        <!-- footer -->
+        <div class="footer">
+            <div class="copyright">
+                <img src="images/copyright.png" / style="max-width:35px">
+                <h3>MBLD Copyright</h3>
+            </div>
+        </div>
         
     </form>
 </body>
