@@ -81,6 +81,7 @@
     <Content Include="index.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\clsDataConnection.cs" />
     <Compile Include="cart.aspx.cs">
       <DependentUpon>cart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
