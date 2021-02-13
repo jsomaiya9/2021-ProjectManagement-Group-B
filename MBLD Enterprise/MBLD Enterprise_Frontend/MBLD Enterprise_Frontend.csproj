@@ -67,15 +67,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="forgottenPassword.aspx" />
     <Content Include="images\Cart.png" />
+    <Content Include="images\checkout.png" />
+    <Content Include="images\copyright.png" />
     <Content Include="images\home.png" />
     <Content Include="images\Logo.png" />
     <Content Include="images\User.png" />
+    <Content Include="login.aspx" />
+    <Content Include="register.aspx" />
     <Content Include="Styles.css" />
     <Content Include="Web.config" />
     <Content Include="index.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\clsDataConnection.cs" />
+    <Compile Include="forgottenPassword.aspx.cs">
+      <DependentUpon>forgottenPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forgottenPassword.aspx.designer.cs">
+      <DependentUpon>forgottenPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -90,6 +110,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
